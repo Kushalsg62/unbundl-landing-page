@@ -285,7 +285,7 @@ body, html {
         color: white;
         position: absolute;
         top: -0.5px;
-        left: 3px;
+        left: 4px;
     }
 
     .checkbox:checked {
@@ -488,6 +488,71 @@ body, html {
 
     .btn-book:hover{
         transform: scale(1.03);
+    }
+
+    .transformation-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        font-family: Figtree;
+    }
+
+    .transformation-section .heading {
+        font-size: 24px;
+        font-weight: 700;
+        color: #1A1A1A;
+        margin-bottom: 20px;
+    }
+
+    .transformation-section .sub-heading {
+        font-size: 20px;
+        font-weight: 400;
+        color: #474747;
+        margin-bottom: 40px;
+    }
+
+    .transformation-section .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .transformation-section .each-container{
+        width: 295px;
+        height: 230px;
+    }
+
+    .transformation-section .each-image{
+        width: 295px;
+        height: 200px;
+        border-radius: 20px;
+        background-color: #E0D5CB;
+    }
+
+    .transformation-section .text-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    .text-container .name{
+        font-size: 16px;
+        font-weight: 600;
+        color: #1A1A1A;
+        margin: 5px 0px;
+    }
+
+    .text-container .place{
+        font-size: 14px;
+        font-weight: 600;
+        color: #F58420;
+        margin: 5px 0px;
     }
 }
 
