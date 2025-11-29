@@ -23,7 +23,7 @@ body, html {
         max-width: 100%; 
         margin: 0; 
         padding: 0;
-        overflow-x: hidden;
+        overflow-y: auto;
     }
     
     .header {
@@ -364,6 +364,130 @@ body, html {
         100% {
             transform: translateX(-50%);
         }
+    }
+
+    .features{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        font-family: Figtree;
+    }
+
+    .features .heading {
+        font-size: 24px;
+        font-weight: 700;
+        color: #1A1A1A;
+        margin-bottom: 20px;
+    }
+
+    .features .sub-heading {
+        font-size: 20px;
+        font-weight: 400;
+        color: #474747;
+        margin-bottom: 30px;
+    }
+
+    .features .root-canal-types{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .features .each-type{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+        border: 1px solid #FFE0C4;
+        border-radius: 20px;
+        margin: 20px 10px;
+        width: 640px;
+    }
+
+    .each-type .img{
+        width: 320px;
+        height: 320px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background-color: #E0D5CB;
+    }
+
+    .each-type .text-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 10px;
+    }
+
+    .text-container .title{
+        font-size: 20px;
+        font-weight: 700;
+        color: #1A1A1A;
+        margin: 10px 0px;
+    }
+
+    .text-container .description{
+        font-size: 16px;
+        font-weight: 400;
+        color: #474747;
+    }
+
+    .text-container .list-heading{
+        font-size: 16px;
+        font-weight: 700;
+        color: #1A1A1A;
+        margin-top: 10px;
+        margin-bottom: 6px;
+    }
+
+    .text-container .list{
+        margin: 0px 10px;
+        gap: 4px;
+    }
+
+    .text-container .list-item{
+        font-size: 16px;
+        font-weight: 400;
+        color: #474747;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    .text-container .price-text{
+        font-size: 14px;
+        font-weight: 600;
+        color: #F58420;
+        margin: 10px 0px;
+    }
+
+    .text-container .price{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .text-container .btn-book{
+        height: 46px;
+        padding: 8px 12px;
+        border: 0px;
+        border-radius: 50px;
+        font-weight: 600;
+        background-color: #F58420;
+        color: #FFFFFF;
+        gap: 12px;
+        cursor: pointer;
+        box-sizing: border-box;
+        margin: 10px 0px;
+    }
+
+    .btn-book{
+        transition: transform 0.5s ease-out, filter 0.5s ease-out;
+    }
+
+    .btn-book:hover{
+        transform: scale(1.03);
     }
 }
 
