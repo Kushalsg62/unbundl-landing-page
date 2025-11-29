@@ -94,7 +94,7 @@ body, html {
         transform: scale(1.03);
     }
 
-    .home {
+    .hero-section {
         display: flex;
         flex-direction: row;
         align-items: stretch;
@@ -108,7 +108,7 @@ body, html {
         overflow: hidden;
     }
 
-    .home .book-appointment {
+    .hero-section .book-appointment {
         flex: 0 0 66%;
         background-image: url('/images/pics/upscalemedia-transformed.jpeg');
         background-size: cover;
@@ -156,7 +156,7 @@ body, html {
     }
 
 
-    .home .form-container {
+    .hero-section .form-container {
         flex: 0 0 35%;
         background-color: #FFFAF5;
         border: 1px solid #FFE0C4;
@@ -365,7 +365,7 @@ body, html {
         }
     }
 
-    .features{
+    .Services {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -374,21 +374,21 @@ body, html {
         font-family: Figtree;
     }
 
-    .features .heading {
+    .Services .heading {
         font-size: 24px;
         font-weight: 700;
         color: #1A1A1A;
         margin-bottom: 20px;
     }
 
-    .features .sub-heading {
+    .Services .sub-heading {
         font-size: 20px;
         font-weight: 400;
         color: #474747;
         margin-bottom: 30px;
     }
 
-    .features .root-canal-types{
+    .Services .root-canal-types{
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -396,7 +396,7 @@ body, html {
         width: 100%;
     }
 
-    .features .each-type{
+    .Services .each-type{
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -489,7 +489,7 @@ body, html {
         transform: scale(1.03);
     }
 
-    .transformation-section{
+    .Testimonials{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -498,21 +498,21 @@ body, html {
         font-family: Figtree;
     }
 
-    .transformation-section .heading {
+    .Testimonials .heading {
         font-size: 24px;
         font-weight: 700;
         color: #1A1A1A;
         margin-bottom: 20px;
     }
 
-    .transformation-section .sub-heading {
+    .Testimonials .sub-heading {
         font-size: 20px;
         font-weight: 400;
         color: #474747;
         margin-bottom: 40px;
     }
 
-    .transformation-section .container{
+    .Testimonials .container{
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -520,19 +520,19 @@ body, html {
         width: 100%;
     }
 
-    .transformation-section .each-container{
+    .Testimonials .each-container{
         width: 295px;
         height: 230px;
     }
 
-    .transformation-section .each-image{
+    .Testimonials .each-image{
         width: 295px;
         height: 180px;
         border-radius: 20px;
         background-color: #E0D5CB;
     }
 
-    .transformation-section .text-container{
+    .Testimonials .text-container{
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -554,7 +554,7 @@ body, html {
         margin: 5px 0px;
     }
 
-    .why-choose-clove{
+    .Features{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -563,21 +563,21 @@ body, html {
         font-family: Figtree;
     }
 
-    .why-choose-clove .heading {
+    .Features .heading {
         font-size: 24px;
         font-weight: 700;
         color: #1A1A1A;
         margin-bottom: 20px;
     }
 
-    .why-choose-clove .sub-heading {
+    .Features .sub-heading {
         font-size: 20px;
         font-weight: 400;
         color: #474747;
         margin-bottom: 40px;
     }
 
-    .why-choose-clove .container{
+    .Features .container{
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -737,6 +737,101 @@ body, html {
         font-weight: 600;
         color: #F58420;
         margin: 5px 0px;
+    }
+
+    .locations-section{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-family: Figtree;
+    }
+
+    .locations-section .heading {
+        font-size: 24px;
+        font-weight: 700;
+        color: #1A1A1A;
+        margin-bottom: 20px;
+    }
+
+    .locations-section .sub-heading {
+        font-size: 20px;
+        font-weight: 400;
+        color: #474747;
+        margin-bottom: 40px;
+    }
+
+    .locations-section .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .locations-section .main-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .locations-section .first-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 40px;
+    }
+
+    .locations-section .each-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        border: 1px solid #D0D0D0;
+        border-radius: 8px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .each-container .location{
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: 25px
+    }
+
+    .each-container .clinics{
+        font-size: 16px;
+        font-weight: 600;
+        color: #474747;
+        font-size: Open Sans;
+        margin-left: 25px
+    }
+
+    .locations-section .location-image{
+        width: 400px;
+        height: 200px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .footer{
+        background-color: #462512;
+        width: 100%;
+        padding: 20px 0;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 40px;
+        font-family: Figtree;
+        box-sizing: border-box;
     }
 
 }
