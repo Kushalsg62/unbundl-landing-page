@@ -9,6 +9,75 @@
 /* Desktop */
 @media (min-width: 1024px) {
     .container { max-width: 1000px; }
+    
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 40px;
+        background: #FFFAF5;
+    }
+
+    .header .btn-group {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .header .btn-book {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 200px;
+        height: 38px;
+        padding: 8px 12px;
+        border: 1px solid #DE6F0D;
+        border-radius: 50px;
+        font-family: Figtree;
+        font-weight: bold;
+        background-color: #F8943F;
+        color: #FFFFFF;
+        gap: 12px;
+        cursor: pointer;
+    }
+
+
+    .header .btn-call {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 154px;
+        height: 38px;
+        padding: 8px 12px;
+        border: 1px solid #462512;
+        border-radius: 50px;
+        font-family: Figtree;
+        font-weight: bold;
+        background-color: #FFFFFF;
+        color: #1A1A1A;
+        gap: 12px;
+        cursor: pointer;
+    }
+
+    .header .btn-book,
+    .header .btn-call {
+        transition: transform 0.4s ease-out, filter 0.4s ease-out;
+    }
+
+    .header .btn-book:hover,
+    .header .btn-call:hover {
+        transform: scale(1.03);
+    }
+
 }
 
 @media (min-width: 1440px) {
