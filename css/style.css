@@ -1,0 +1,16 @@
+/* Mobile (default) */
+.container { max-width: 100%; padding: 0 20px; }
+
+/* Tablet */
+@media (min-width: 768px) {
+    .container { max-width: 720px; margin: 0 auto; }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .container { max-width: 1000px; }
+}
+
+@media (min-width: 1440px) {
+    .container { max-width: 1200px; }
+}
