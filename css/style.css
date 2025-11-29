@@ -95,7 +95,7 @@ body, html {
         transform: scale(1.03);
     }
 
-    .main {
+    .home {
         display: flex;
         flex-direction: row;
         align-items: stretch;
@@ -109,7 +109,7 @@ body, html {
         overflow: hidden;
     }
 
-    .main .book-appointment {
+    .home .book-appointment {
         flex: 0 0 66%;
         background-image: url('/images/pics/upscalemedia-transformed.jpeg');
         background-size: cover;
@@ -157,7 +157,7 @@ body, html {
     }
 
 
-    .main .form-container {
+    .home .form-container {
         flex: 0 0 35%;
         background-color: #FFFAF5;
         border: 1px solid #FFE0C4;
@@ -310,7 +310,7 @@ body, html {
         border: 0px;
         border-radius: 50px;
         font-weight: 600;
-        background-color: #F8943F;
+        background-color: #F58420;
         color: #FFFFFF;
         gap: 12px;
         cursor: pointer;
@@ -325,6 +325,46 @@ body, html {
         transform: scale(1.03);
     }
 
+    .slider {
+        background-color: #FFFAF5;
+        overflow: hidden;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+        font-family: Figtree;
+    }
+
+    .slider-track {
+        display: inline-flex;
+        animation: scroll-left 20s linear infinite;
+    }
+
+    .each-slide {
+        display: flex;
+        align-items: center;
+        margin: 0 40px;
+    }
+
+    .text {
+        color: #1A1A1A;
+        font-size: 14px;
+        font-weight: 700;
+        margin-left: 10px;
+    }
+
+    .span-text {
+        color: #F58420;
+    }
+
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-50%);
+        }
+    }
 }
 
 @media (min-width: 1440px) {
