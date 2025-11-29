@@ -47,3 +47,4 @@ document.addEventListener('DOMContentLoaded', function() {
         itemImage.src = images[0];
     }
 });
+
