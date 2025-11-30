@@ -132,7 +132,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 ## Screenshots
 
 **Hero Section (Desktop)**
-![Hero Desktop](images/pics/Hero-section.png)
+<img width="1883" height="722" alt="Hero-section" src="https://github.com/user-attachments/assets/cbd61ddb-deed-40ed-97fd-81441aafc43f" />
 
 **Features Section (Tablet)**
 ![Features Tablet](images/features-tablet.png)
@@ -152,6 +152,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 * LinkedIn: [www.linkedin.com/in/kushal-sg/](www.linkedin.com/in/kushal-sg-6a6b2a207)
   
 ---
+
 
 
 
