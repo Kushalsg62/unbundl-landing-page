@@ -174,9 +174,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 * Web Developer | Software Engineer
 * GitHub: [https://github.com/Kushalsg62/](https://github.com/Kushalsg62/)
-* LinkedIn: [www.linkedin.com/in/kushal-sg/](www.linkedin.com/in/kushal-sg-6a6b2a207)
+* LinkedIn: [www.linkedin.com/in/kushal-sg-6a6b2a207](www.linkedin.com/in/kushal-sg-6a6b2a207)
   
 ---
+
 
 
 
