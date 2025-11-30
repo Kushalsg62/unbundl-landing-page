@@ -132,7 +132,17 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 ## Screenshots
 
 **Hero Section (Desktop)**
+
 <img width="1883" height="722" alt="Hero-section" src="https://github.com/user-attachments/assets/cbd61ddb-deed-40ed-97fd-81441aafc43f" />
+
+**Hero Section (Mobile)**
+
+<img width="501" height="657" alt="Hero-section-mobile" src="https://github.com/user-attachments/assets/3c202649-a5a3-4b3a-9796-0cdd6102d177" />
+
+**Hero Section (Tab)**
+
+<img width="1246" height="714" alt="Hero-section-tab" src="https://github.com/user-attachments/assets/a6198b6a-e81f-481c-a4ab-16ba1c1d6bd5" />
+
 
 **Features Section (Tablet)**
 ![Features Tablet](images/features-tablet.png)
@@ -152,6 +162,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 * LinkedIn: [www.linkedin.com/in/kushal-sg/](www.linkedin.com/in/kushal-sg-6a6b2a207)
   
 ---
+
 
 
 
