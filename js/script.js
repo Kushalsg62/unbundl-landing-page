@@ -121,3 +121,43 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+
+(function () {
+    const menuBtn = document.getElementById('menuBtn');
+    const navMenu = document.getElementById('navMenu');
+    const links = document.querySelectorAll('.nav-menu .nav-link');
+
+    menuBtn.addEventListener('click', () => {
+      const isOpen = menuBtn.classList.toggle('open'); 
+      navMenu.classList.toggle('active', isOpen);      
+      menuBtn.setAttribute('aria-expanded', String(isOpen));
+      menuBtn.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+    });
+
+    links.forEach(link => {
+      link.addEventListener('click', () => {
+        menuBtn.classList.remove('open');
+        navMenu.classList.remove('active');
+        menuBtn.setAttribute('aria-expanded', 'false');
+        menuBtn.setAttribute('aria-label', 'Open menu');
+      });
+    });
+
+    document.addEventListener('click', (e) => {
+      const target = e.target;
+      if (!navMenu.contains(target) && !menuBtn.contains(target) && navMenu.classList.contains('active')) {
+        menuBtn.classList.remove('open');
+        navMenu.classList.remove('active');
+        menuBtn.setAttribute('aria-expanded', 'false');
+        menuBtn.setAttribute('aria-label', 'Open menu');
+      }
+    });
+  })(); 
+
+  document.getElementById("backToHomeBtn").addEventListener("click", () => {
+        document.getElementById("home").scrollIntoView({
+            behavior: "smooth"
+        });
+    });
+
+    

@@ -13,6 +13,77 @@ body, html {
 
 .mobile-container { max-width: 100%; display: block; }
 
+.back-to-home-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    background: #EA7D28;
+    border: 1px solid #FFE0C4;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 2000;
+    opacity: 0.85;
+    transition: opacity 0.2s ease;
+}
+
+.back-to-home-btn:hover {
+    opacity: 1;
+}
+
+.menu-btn {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 22px;
+    padding: 6px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .menu-btn:focus { outline: 1px solid rgba(0,0,0,0.12); border-radius: 4px; }
+
+  .bar {
+    display: block;
+    height: 3px;
+    border-radius: 3px;
+    background: #EA7D28;
+    transition: transform 250ms ease, opacity 250ms ease;
+  }
+
+  .nav-menu {
+    display: none;
+    position: absolute;
+    top: 64px;         
+    right: 12px;
+    background: #fff;
+    width: 200px;
+    padding: 12px;
+    border: 1px solid #FFE0C4;
+    border-radius: 8px;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 1200;
+  }
+
+  .nav-link{
+    color: #1A1A1A;
+    text-decoration: none;
+  }
+
+  .nav-menu.active { display: flex; }
+
+  .menu-btn.open .bar1 { transform: translateY(8.5px) rotate(45deg); }
+  .menu-btn.open .bar2 { opacity: 0; transform: scaleX(0); }
+  .menu-btn.open .bar3 { transform: translateY(-8.5px) rotate(-45deg); }
+
 .mobile-header {
     width: 100%;
     padding: 12px 20px;
@@ -2636,8 +2707,32 @@ body, html {
         box-sizing: border-box;
     }
 
+    .back-to-home-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    background: #EA7D28;
+    border: 1px solid #FFE0C4;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 2000;
+    opacity: 0.85;
+    transition: opacity 0.2s ease;
+}
+
+.back-to-home-btn:hover {
+    opacity: 1;
+}
+
+
 }
 
 @media (min-width: 1440px) {
     .container { max-width: 100%; }
 }
+

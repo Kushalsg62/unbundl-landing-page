@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="home">
     <div class="desktop-container">
         <header class="header">
             <img src="images\Logos\clove logo.svg" alt="Logo" class="logo">
@@ -403,6 +403,7 @@
                     </div>
                 </div>
             </div>
+            <button id="backToHomeBtn" class="back-to-home-btn">↑</button>
         </main>
         <footer class="footer">
             <img src="images\Logos\footer-logo.svg" alt="Logo" class="logo">
@@ -410,15 +411,31 @@
         </footer>
     </div>
 
-    <div class="mobile-container">
+    <div class="mobile-container" id="home">
         <header class="mobile-header">
             <img src="images\Logos\clove logo.svg" alt="Logo" class="mobile-logo">
             <div class="mobile-btn-group">
                 <button class="mobile-btn-call"><img src ="images\icons\Get a Call Back.svg" alt="call icon" />985-6589-510</button>
             </div>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#Home" class="nav-link">Home</a>
+                <a href="#Form" class="nav-link">Form</a>
+                <a href="#Services" class="nav-link">Services</a>
+                <a href="#Testimonials" class="nav-link">Testimonials</a>
+                <a href="#Why Choose Us" class="nav-link">Why Choose Us</a>
+                <a href="#Patients Review" class="nav-link">Patients Review</a>
+                <a href="#Find Us" class="nav-link">Find Us</a>
+            </nav>
+
+            <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+            </button>
         </header>
         <main>
-            <div class="mobile-hero-section">
+            <div class="mobile-hero-section" id="Home">
                 <div class="mobile-book-appointment"> 
                     <div class="mobile-text-container">
                         <h3 class="mobile-title">Your Smile, <br/> Our Priority At  <br/> <span class="span">Clove Dental</span></h3>
@@ -494,7 +511,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mobile-form-container">
+            <div class="mobile-form-container" id="Form">
                 <h1 class="mobile-heading">Get Expert Dental Guidance in Delhi</h1>
                 <p class="mobile-subheading">Book your free consultation today and take the first step towards healthy, beautiful teeth.</p>
                 <form class="mobile-form"  id="userForm">
@@ -511,7 +528,7 @@
                     <button type="submit" class="mobile-btn-submit">Book a Free Consultation</button>
                 </form>
             </div>
-            <div class="mobile-Services">
+            <div class="mobile-Services" id="Services">
                 <h1 class="mobile-heading">Types of Root Canal Treatments</h1>
                 <p class="mobile-sub-heading">The surgeon inserts an implant into the jawbone which acts as an anchor for an artificial tooth, called a crown</p>
                 <div class="mobile-root-canal-types">
@@ -550,7 +567,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mobile-Testimonials">
+            <div class="mobile-Testimonials" id = 'Testimonials'>
                 <h1 class="mobile-heading">Real Smiles, Real Transformations</h1>
                 <p class="mobile-sub-heading">See the life-changing results our dental implant patients enjoy</p>
                 <div class="mobile-container">
@@ -584,7 +601,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mobile-Features">
+            <div class="mobile-Features" id="Why Choose Us">
                 <h1 class="mobile-heading">Why Choose Clove Dental</h1>
                 <p class="mobile-sub-heading">Clove Dental is India’s Leading dental care brand with 600+ clinic nationwide</p>
                 <div class="mobile-container">
@@ -654,7 +671,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mobile-patient-testimonials">
+            <div class="mobile-patient-testimonials" id="Patients Review">
                 <h1 class="mobile-heading">What Our Patients Say</h1>
                 <p class="mobile-sub-heading">Real smiles, real stories. Here’s what our patients love about their CLOVE Dental experience!</p>
 
@@ -716,7 +733,7 @@
 
                 </div>
             </div>
-            <div class="mobile-locations-section">
+            <div class="mobile-locations-section" id="Find Us">
                 <h1 class="mobile-heading">Find Us Across India</h1>
                 <p class="mobile-sub-heading">With over 500 clinics across India, you’re never too far from a Clove Dental clinic. Choose your preferred city to book an appointment.</p>
 
@@ -799,6 +816,7 @@
                         <img src="images/pics/clinic-image4.jpg" alt="4th-clinic image" class="mobile-location-image" />
                     </div>
             </div>
+            <button id="backToHomeBtn" class="back-to-home-btn">↑</button>
         </main>
         <footer class="mobile-footer">
             <img src="images\Logos\footer-logo.svg" alt="Logo" class="logo">
