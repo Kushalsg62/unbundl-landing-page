@@ -13,14 +13,16 @@ This project is a **fully responsive landing page** built from a Figma design us
 It demonstrates translating a design into semantic, clean, and responsive code with basic interactivity.
 
 **Implemented Sections (6 selected from Figma):**
-1. Navigation Bar (with mobile menu toggle)  
-2. Hero Section  
-3. Features / Services  
-4. About Us  
-5. Testimonials  
-6. Footer  
+1. Header with Navigation Bar (mobile menu toggle)  
+2. Hero Section and Form Section 
+3. Services  
+4. Why Choose Us
+5. Testimonials
+6. Patients Review
+7. Find Us (Location)
+8. Footer  
 
-The landing page follows a **mobile-first approach** ensuring smooth user experience on all devices.
+The landing page follows a **desktop-first approach** ensuring a smooth user experience on all devices.
 
 ---
 
@@ -80,7 +82,6 @@ git clone https://github.com/yourusername/repository-name.git
 ````
 
 2. **Open `index.html` in your browser**
-   No additional setup required.
 
 3. **Deploy on GitHub Pages (optional):**
 
@@ -105,7 +106,7 @@ git clone https://github.com/yourusername/repository-name.git
 
 ## JavaScript Interactivity
 
-```javascript
+```JavaScript
 // Mobile menu toggle
 const menuBtn = document.querySelector('.menu-btn');
 const navMenu = document.querySelector('.nav-menu');
@@ -149,6 +150,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 * Web Developer | Software Engineer
 * GitHub: [https://github.com/Kushalsg62/](https://github.com/Kushalsg62/)
 * LinkedIn: [www.linkedin.com/in/kushal-sg/](www.linkedin.com/in/kushal-sg-6a6b2a207)
-
+  
 ---
+
 
