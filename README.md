@@ -26,9 +26,10 @@ The landing page follows a **desktop-first approach** ensuring a smooth user exp
 
 ---
 
-## Live Demo
+## 🌐 Live Demo
 
-[🌐 View Live Site][https://yourusername.github.io/repository-name/](https://kushalsg62.github.io/unbundl-landing-page/)
+**Live URL:**  
+https://kushalsg62.github.io/unbundl-landing-page/
 
 ---
 
@@ -176,6 +177,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 * LinkedIn: [www.linkedin.com/in/kushal-sg/](www.linkedin.com/in/kushal-sg-6a6b2a207)
   
 ---
+
 
 
 
