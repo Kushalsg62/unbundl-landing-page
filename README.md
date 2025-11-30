@@ -172,11 +172,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 **Kushal SG**
 
-* Web Developer | Software Engineer
+* Software Engineer | Web Developer
 * GitHub: [https://github.com/Kushalsg62/](https://github.com/Kushalsg62/)
-* LinkedIn: [www.linkedin.com/in/kushal-sg-6a6b2a207](www.linkedin.com/in/kushal-sg-6a6b2a207)
   
 ---
+
 
 
 
