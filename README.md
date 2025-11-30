@@ -149,14 +149,23 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 ---
 
-**Features Section (Tablet)**
-![Features Tablet](images/features-tablet.png)
+**Why Choose Us (Desktop)**
 
-**Testimonials Section (Mobile)**
-![Testimonials Mobile](images/testimonials-mobile.png)
+<img width="1888" height="920" alt="Why-choose-us" src="https://github.com/user-attachments/assets/240d2e29-348f-41d7-8315-1292f092764b" />
 
 ---
 
+**Find Us Across India (Tab)**
+
+<img width="1237" height="911" alt="Find-us" src="https://github.com/user-attachments/assets/2aa104b5-6b3b-4cb2-9e14-57acecb2e893" />
+
+---
+
+**Form (Mobile)**
+
+<img width="498" height="807" alt="Form" src="https://github.com/user-attachments/assets/9181fadb-f07d-4e20-b29f-5161265fbeaf" />
+
+---
 
 ## Author
 
@@ -167,6 +176,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 * LinkedIn: [www.linkedin.com/in/kushal-sg/](www.linkedin.com/in/kushal-sg-6a6b2a207)
   
 ---
+
 
 
 
