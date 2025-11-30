@@ -1,7 +1,4 @@
-Perfect! Here’s a **fully GitHub-ready README** with badges, structured sections, and clean formatting that you can copy directly to your repository:
-
-```markdown
-# Responsive Landing Page – Web Development Assignment
+### Responsive Landing Page – Web Development Assignment
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -154,3 +151,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 * LinkedIn: [www.linkedin.com/in/kushal-sg/](www.linkedin.com/in/kushal-sg-6a6b2a207)
 
 ---
+
