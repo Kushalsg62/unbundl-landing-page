@@ -2039,7 +2039,7 @@ html {
 
   .hero-section .book-appointment {
     flex: 0 0 66%;
-    background-image: url('../images/pics/upscalemedia-transformed.jpeg');
+    background-image: url('./images/pics/upscalemedia-transformed.jpeg');
     background-size: cover;
     background-position: left;
     display: flex;
