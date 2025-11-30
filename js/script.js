@@ -98,3 +98,26 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("userForm");
+    const fields = ["name", "mobileNumber", "captcha"];
+
+    fields.forEach(field => {
+        const input = form.querySelector(`[name="${field}"]`);
+        const saved = localStorage.getItem(field);
+        if (saved) input.value = saved;
+    });
+
+    fields.forEach(field => {
+        const input = form.querySelector(`[name="${field}"]`);
+        input.addEventListener("input", () => {
+            localStorage.setItem(field, input.value);
+        });
+    });
+
+    form.addEventListener("submit", () => {
+        fields.forEach(field => localStorage.removeItem(field));
+    });
+});
+
