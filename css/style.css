@@ -182,7 +182,7 @@ html {
 }
 
 .mobile-hero-section .mobile-book-appointment {
-  background-image: url('/images/pics/upscalemedia-transformed.jpeg');
+  background-image: url('./images/pics/upscalemedia-transformed.jpeg');
   background-size: cover;
   background-position: left;
   display: flex;
