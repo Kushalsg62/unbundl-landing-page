@@ -182,7 +182,7 @@ html {
 }
 
 .mobile-hero-section .mobile-book-appointment {
-  background-image: url('/images/pics/upscalemedia-transformed.jpeg');
+  background-image: url('../images/pics/upscalemedia-transformed.jpeg');
   background-size: cover;
   background-position: left;
   display: flex;
@@ -1017,20 +1017,6 @@ html {
   width: 250px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Tablet */
 @media (min-width: 768px) {
   .container {
@@ -1113,7 +1099,7 @@ html {
   }
 
   .mobile-hero-section .mobile-book-appointment {
-    background-image: url('/images/pics/upscalemedia-transformed.jpeg');
+    background-image: url('../images/pics/upscalemedia-transformed.jpeg');
     background-size: cover;
     width: 100vw;
     background-position: left;
@@ -2053,7 +2039,7 @@ html {
 
   .hero-section .book-appointment {
     flex: 0 0 66%;
-    background-image: url('/images/pics/upscalemedia-transformed.jpeg');
+    background-image: url('../images/pics/upscalemedia-transformed.jpeg');
     background-size: cover;
     background-position: left;
     display: flex;
