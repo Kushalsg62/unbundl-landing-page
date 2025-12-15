@@ -182,7 +182,7 @@ html {
 }
 
 .mobile-hero-section .mobile-book-appointment {
-  background-image: url('/images/pics/d9e2eb1945ffd93ea40450c1db6dd1c7d2b70f19.jpg');
+  background-image: url('./images/pics/d9e2eb1945ffd93ea40450c1db6dd1c7d2b70f19.jpg');
   background-size: cover;
   background-position: left;
   display: flex;
